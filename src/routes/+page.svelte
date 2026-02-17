@@ -7,9 +7,11 @@
 	import RadialChart from '$lib/components/RadialChart.svelte';
 	import Maps from '$lib/components/Maps.svelte';
 	import * as Card from '$lib/components/ui/card';
+	import Install from '$lib/components/Install.svelte';
 </script>
 
 <div class="space-y-8 p-5 sm:p-10">
+	<Install />
 	<BarChart />
 	<AreaChart />
 	<LineChart />
