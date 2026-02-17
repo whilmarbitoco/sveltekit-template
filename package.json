@@ -12,7 +12,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
-		"scd": "npx shadcn-svelte@latest add"
+		"scd": "npx shadcn-svelte@latest add",
+		"generate-pwa-assets": "pwa-assets-generator --preset minimal"
 	},
 	"devDependencies": {
 		"@internationalized/date": "^3.11.0",
