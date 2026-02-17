@@ -23,5 +23,5 @@
 </script>
 
 {#if showButton}
-	<Button onclick={installApp}>Install App</Button>
+	<Button size="sm" variant="default" onclick={installApp}>Install App</Button>
 {/if}
