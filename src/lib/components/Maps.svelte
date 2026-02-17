@@ -5,6 +5,8 @@
 	import Marker from './Marker.svelte';
 	import Button from './ui/button/button.svelte';
 	import type { FeatureCollection, Feature, Point, Polygon } from 'geojson';
+	  import { toast } from 'svelte-sonner'
+
 
 	// Reactive state
 	let userLocation = $state<[number, number] | null>(null);
@@ -66,6 +68,7 @@
 
 		// Clear click points after adding
 		clickAt = [];
+		toast("Hello world")
 	}
 </script>
 
