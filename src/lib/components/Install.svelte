@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Button from './ui/button/button.svelte';
-	let deferredPrompt: any = null;
-	let showButton = false;
+	let deferredPrompt: any = $state(null);
+	let showButton = $state(false);
 
 	onMount(() => {
 		window.addEventListener('beforeinstallprompt', (e: any) => {
