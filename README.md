@@ -52,7 +52,7 @@ src/
 ## Adding shadcn-svelte Components
 
 ```sh
-npx shadcn-svelte@latest add [component-name]
+npm run scd [component-name]
 ```
 
 Visit [shadcn-svelte.com](https://shadcn-svelte.com) for available components.
